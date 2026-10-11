@@ -1,0 +1,81 @@
+import type { Subject } from '@/lib/types'
+
+export const SUBJECTS: Subject[] = [
+  {
+    slug: 'gk',
+    name: 'General Knowledge',
+    description: 'Static GK, national symbols, art, culture and important facts.',
+    icon: 'globe',
+    topics: ['National Symbols', 'Art & Culture', 'Books & Authors', 'Important Days'],
+  },
+  {
+    slug: 'current-affairs',
+    name: 'Current Affairs',
+    description: 'National and international events, schemes and developments.',
+    icon: 'newspaper',
+    topics: ['Science & Space', 'Summits & Events', 'Government Schemes', 'Sports'],
+  },
+  {
+    slug: 'polity',
+    name: 'Indian Polity',
+    description: 'Constitution, Parliament, judiciary and governance.',
+    icon: 'scale',
+    topics: ['Fundamental Rights', 'Constitutional Bodies', 'Amendments', 'Parliament'],
+  },
+  {
+    slug: 'history',
+    name: 'History',
+    description: 'Ancient, medieval and modern Indian history and freedom struggle.',
+    icon: 'history',
+    topics: ['Ancient India', 'Medieval India', 'Modern India', 'Freedom Struggle'],
+  },
+  {
+    slug: 'geography',
+    name: 'Geography',
+    description: 'Physical, Indian and world geography with maps and resources.',
+    icon: 'map',
+    topics: ['Rivers', 'Soils', 'Climate', 'Physical Features'],
+  },
+  {
+    slug: 'economics',
+    name: 'Economics',
+    description: 'Indian economy, budget, banking and monetary policy.',
+    icon: 'trending',
+    topics: ['Banking & RBI', 'Taxation', 'Budget', 'Planning'],
+  },
+  {
+    slug: 'science',
+    name: 'General Science',
+    description: 'Physics, chemistry and biology at NCERT foundation level.',
+    icon: 'flask',
+    topics: ['Physics', 'Chemistry', 'Biology', 'Human Body'],
+  },
+  {
+    slug: 'reasoning',
+    name: 'Reasoning',
+    description: 'Verbal and non-verbal reasoning, puzzles and analytical ability.',
+    icon: 'brain',
+    topics: ['Series', 'Coding-Decoding', 'Blood Relations', 'Clocks'],
+  },
+  {
+    slug: 'mathematics',
+    name: 'Mathematics',
+    description: 'Arithmetic, algebra, geometry and data interpretation.',
+    icon: 'calculator',
+    topics: ['Percentage', 'Speed & Distance', 'Interest', 'Ratio', 'Profit & Loss'],
+  },
+  {
+    slug: 'english',
+    name: 'English',
+    description: 'Vocabulary, grammar, comprehension and idioms.',
+    icon: 'languages',
+    topics: ['Synonyms', 'Antonyms', 'Spelling', 'Idioms'],
+  },
+  {
+    slug: 'pedagogy',
+    name: 'Child Development & Pedagogy',
+    description: 'Learning theories, inclusive education and classroom assessment for teaching exams.',
+    icon: 'graduation',
+    topics: ['Learning Theories', 'Inclusive Education', 'Assessment', 'Child Development'],
+  },
+]
